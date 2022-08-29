@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Bigelow+Rules&display=swap");
 .App {
   text-align: center;
 }
@@ -35,4 +36,30 @@
   to {
     transform: rotate(360deg);
   }
+}
+/* app */
+body {
+  background: #00467f;
+}
+.app .header {
+  text-align: center;
+  color: #0ccac4;
+  font-size: 5rem;
+  margin: 1rem auto;
+  font-family: "Bigelow Rules";
+}
+.filter-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search {
+  -webkit-appearance: none;
+  border: none;
+  outline: none;
+  padding: 10px;
+  width: 150px;
+  line-height: 30px;
+  margin-bottom: 30px;
 }
